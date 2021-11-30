@@ -1,7 +1,7 @@
 .banner {
     box-sizing: border-box;
     background-image: url(../../assets/img/imgbanner.jpg); /*Usa-se esta estrutura para voltar para páginas externas*/
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-size: 100%;
     height: 800px;
     border-bottom: 10px solid #000;
