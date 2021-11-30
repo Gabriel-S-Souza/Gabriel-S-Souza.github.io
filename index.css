@@ -40,9 +40,16 @@ a::before { /* Pseudo elemento inserido com o CSS. before(inserido antes). after
     box-shadow: 5px 5px 0px #000000;
     padding: 18px 20px;
     margin-right: 0;
-    transition: transform 100ms cubic-bezier(0.42, 0, 0.9, 3.78);
+    transition: transform 100ms cubic-bezier(0.47, 0.23, 0.21, 2.64);
 }
 
 a:hover {
     transform: scale(1.15);
+}
+
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    color: #F25A70;
+    text-shadow: 5px 5px 0 #000;
 }
