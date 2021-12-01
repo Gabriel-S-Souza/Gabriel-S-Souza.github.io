@@ -1,4 +1,4 @@
-progress { /*Retira os padrão da barra*/
+progress { /*Retira o padrão da barra*/
     display:inline-block;
     -webkit-appearance: none;
 }
