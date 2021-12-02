@@ -1,0 +1,12 @@
+.box-banner {
+    display: inline-block;
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    padding: 42px 44px;
+    margin-bottom: 28px;
+}
+
+.box-banner .main-title {
+    margin-bottom: 28px;
+}
