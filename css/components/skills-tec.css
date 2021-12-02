@@ -11,9 +11,12 @@
     width: 90px;
 }
 
+.skills-tec .title {
+    margin-bottom: 10px;
+}
+
 .skills-tec .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 90px;
 }
