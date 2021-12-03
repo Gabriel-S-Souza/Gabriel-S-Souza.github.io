@@ -6,6 +6,11 @@
 
 }
 
-.section .main-title {
+.section-page .main-title {
     margin-bottom: 60px;
+}
+
+.section-page.-projetos {
+    background-color: #000;
+    border-bottom: 10px solid  #F25A70;
 }
