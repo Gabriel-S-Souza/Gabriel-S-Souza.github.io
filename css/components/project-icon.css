@@ -11,3 +11,7 @@
 .project-icon.-blue {
     background-color: #4C5B84;
 }
+
+.projectLink::before { /* Pseudo elemento inserido com o CSS. before(inserido antes). after(inserido após)*/
+    content: none;
+}
