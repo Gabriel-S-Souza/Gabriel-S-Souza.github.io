@@ -1,0 +1,52 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.node-card .titleCarrosel {
+    font-size: 25px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: 400;
+    color: #F25A70;
+    margin-bottom: 50px;
+}
+
+.node-card::before {
+    content: '';
+    box-sizing: border-box;
+    height: 40px;
+    width: 5px;
+    border-left: 5px dashed #000;
+    position: absolute;
+    bottom: 140px;
+
+}
+
+.cardSobre {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #CEB02A;
+    height: 140px;
+    width: 220px;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #000;
+}
+
+.node-card.-clean .cardSobre {
+    box-sizing: content-box;
+    height: 130px;
+    width: auto;
+    overflow: hidden;
+}
+
+.node-card.-colorVariation .cardSobre{
+    background-color:#F25A70;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+}
+

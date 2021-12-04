@@ -15,7 +15,11 @@
     border: 16px solid transparent;
     border-right: 0px transparent;
     border-left: 30px solid #fff;
-    transform: translateX(14%);
+    transform: translateX(5px);
+}
+
+.button-arrow.-left::before {
+    transform: rotate(180deg);
 }
 
 .button-arrow .content {
