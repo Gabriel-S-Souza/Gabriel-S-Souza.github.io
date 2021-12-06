@@ -17,4 +17,9 @@
 
 .main-footer .footerLink::before {
     content: none;
+    margin-right: 0px;
+}
+
+.main-footer .footerLink {
+    margin-right: 0px;
 }

@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="css/components/node-card.css">
         <link rel="stylesheet" href="css/components/main-carousel.css">
         <link rel="stylesheet" href="css/components/main-footer.css">
+        <link rel="stylesheet" href="css/components/main-label.css">
     </head>
     <body>
         <header>
@@ -58,8 +59,8 @@
                     <img class="icon" src="assets/img/ico_html5.png" alt="Logo do html5">
                     <div class="right">
                         <h3 class="title">HTML</h3>
-                        <progress class="progress-bar" max="100" value="30">
-                            30%
+                        <progress class="progress-bar" max="100" value="25">
+                            25%
                         </progress>
                     </div>
                 </article>
@@ -67,8 +68,7 @@
                     <img class="icon" src="assets/img/ico_react.png" alt="Logo do html5">
                     <div class="right">
                         <h3 class="title">REACT</h3>
-                        <progress class="progress-bar" max="100" value="30">
-                            30%
+                        <progress class="progress-bar" max="100" value="0">
                         </progress>
                     </div>
                 </article>
@@ -76,8 +76,8 @@
                     <img class="icon" src="assets/img/ico_css3.png" alt="Logo do html5">
                     <div class="right">
                         <h3 class="title">CSS</h3>
-                        <progress class="progress-bar" max="100" value="30">
-                            30%
+                        <progress class="progress-bar" max="100" value="25">
+                            25%
                         </progress>
                     </div>
                 </article>
@@ -85,8 +85,8 @@
                     <img class="icon" src="assets/img/ico_nodejs.png" alt="Logo do html5">
                     <div class="right">
                         <h3 class="title">Node.JS</h3>
-                        <progress class="progress-bar" max="100" value="30">
-                            30%
+                        <progress class="progress-bar" max="100" value="0">
+                            0%
                         </progress>
                     </div>
                 </article>
@@ -94,8 +94,8 @@
                     <img class="icon" src="assets/img/ico_js.png" alt="Logo do html5">
                     <div class="right">
                         <h3 class="title">JavaScript</h3>
-                        <progress class="progress-bar" max="100" value="30">
-                            30%
+                        <progress class="progress-bar" max="100" value="5">
+                            5%
                         </progress>
                     </div>
                 </article>
@@ -103,8 +103,8 @@
                     <img class="icon" src="assets/img/ico_restapi.png" alt="Logo do html5">
                     <div class="right">
                         <h3 class="title">Rest API</h3>
-                        <progress class="progress-bar" max="100" value="30">
-                            30%
+                        <progress class="progress-bar" max="100" value="0">
+                            0%
                         </progress>
                     </div>
                 </article>
@@ -191,21 +191,26 @@
         <section class="section-page -contatos">
             <h2 class="main-title -second">Contatos</h2>
             <forms class="main-formulario">
-                <p class="main-texto">Nome</p>
-                <input type="text">
-                <p class="main-texto">Email</p>
-                <input type="text">
-                <p class="main-texto">Mensagem</p>
-                <input type="text">
-
+                <label class="main-label" for="nome">Nome</label>
+                <input id="nome" type="text">
+                <label class="main-label" for="email" >Email</label>
+                <input id="email" type="email">
+                <label class="main-label" for="mensagem" >Mensagem</label>
+                <textarea name="" id="mensagem"></textarea>
+                <button type="submit">Enviar</button>
             </forms>
         </section>
         <footer class="main-footer">
-            <a class="footerLink" href="https://www.linkedin.com/in/gabriel-s-souza/"><img src="assets/img/linkedin.png" alt="Link do linkedin"></a>
-            <a class="footerLink" href="http://api.whatsapp.com/send?1=pt_BR&phone=5591985399928"><img src="assets/img/whatsapp.png" alt="Link do whatsapp"></a>
-            <a class="footerLink" href="https://github.com/Gabriel-S-Souza"><img src="assets/img/github.png" alt="Link do github"></a>
-        </footer>
-            
+            <a class="footerLink" href="https://www.linkedin.com/in/gabriel-s-souza/" target="_blank">
+                <img src="assets/img/linkedin.png" alt="Link do linkedin">
+            </a>
+            <a class="footerLink" href="http://api.whatsapp.com/send?1=pt_BR&phone=5591985399928" target="_blank">
+                <img src="assets/img/whatsapp.png" alt="Link do whatsapp">
+            </a>
+            <a class="footerLink" href="https://github.com/Gabriel-S-Souza" target="_blank">
+                <img src="assets/img/github.png" alt="Link do github">
+            </a>
+        </footer>  
         <script src="js/components/main-carousel.js"></script>
     </body>
-</html>▀
+</html>
