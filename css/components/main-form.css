@@ -1,0 +1,13 @@
+.main-form {
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main-form .main-input {
+    margin-bottom: 20px;
+}
+
+.main-form .main-input.-textarea {
+    margin-bottom: 40px;
+}
