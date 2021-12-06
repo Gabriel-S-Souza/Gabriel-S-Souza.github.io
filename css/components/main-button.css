@@ -5,6 +5,7 @@
     padding: 18px 20px;
     margin-right: 0;
     transition: transform 100ms cubic-bezier(0.47, 0.23, 0.21, 2.64);
+    cursor: pointer;
     
 }
 
@@ -16,4 +17,8 @@ a:hover {
     width: 100%;
     font-size: 20px;
     color: #FFF;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.01);
 }
