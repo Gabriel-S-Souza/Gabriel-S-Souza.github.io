@@ -33,3 +33,7 @@ a::before { /* Pseudo elemento inserido com o CSS. before(inserido antes). after
     height: 10px;
     margin-right: 10px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
